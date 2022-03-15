@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-bg-color: #2874f0;
+  }
+  
+header{
+    background-color: var( --main-bg-color);  
+    font-family: 'Lato', sans-serif;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 88px;
+    padding: 0px 25px;
+
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding:0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+   
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 28px;
+    border-radius: 4px;
+    margin: 0px 16px 0px 60px;
+    padding: 0px 6px;
+}
+.slider{ 
+     width: 80vw;
+     margin: 12px auto;
+     overflow: hidden;
+ }
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 55px 0px 0px 20px;
+    position:relative;
+    left: 1px;
+    
+}
+.card h2{
+     font-family: 'Ubuntu', sans-serif;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow:auto;
+  
+}
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 9vw;
+    margin: 0px 50px;
+
+}
+
+footer{
+    background-color: var( --main-bg-color);  
+    height: 12vh;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
